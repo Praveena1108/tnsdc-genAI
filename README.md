@@ -2,7 +2,6 @@
 **Project Overview:** The project aims to forecast future values in time-series data by leveraging autoencoder neural networks. It generates synthetic time-series data, creates and trains an autoencoder model, and uses it to generate future sequences.
 
 **Usage:**
-
 **Generate Time-Series Data:** The "generate_time_series_data" function creates synthetic time-series data with two sine waves and random noise.
 **Create Autoencoder Model:** The "create_autoencoder" function defines an autoencoder model architecture using LSTM layers to capture temporal patterns in the data.
 **Train Autoencoder Model:** The "train_autoencoder" function trains the autoencoder model using the generated time-series data, aiming to minimize the mean squared error loss between input and output sequences.
@@ -15,3 +14,6 @@ The project involves generating synthetic time-series data, creating and trainin
 
 **Advantages:**
 The project stands out by leveraging autoencoders to effectively capture intricate temporal patterns in time-series data, enabling accurate forecasting of future values. Autoencoders excel in learning meaningful representations from sequential data, facilitating better understanding and prediction of complex temporal dynamics. By providing precise forecasts, the project aids in decision-making across various domains, offering insights into future trends and optimizing resource allocation. The advantages include improved accuracy, scalability, and interpretability of forecasts, empowering stakeholders with actionable insights for informed planning and decision-making.
+
+**OUTPUT:**
+![Output_timeseries](https://github.com/Praveena1108/tnsdc-genAI/assets/114508978/706463e6-3e70-4024-a0e7-82cc3fe6a1c8)
